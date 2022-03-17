@@ -1,0 +1,131 @@
+@media (max-width: 1400px) {
+    .navigation__item::after {
+        padding-right: 31px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navigation__item::after {
+        padding-right: 23px;
+    }
+    .navigation__link {
+        font-size: 13px;
+    }
+    .company__title {
+        font-size: 55px;
+        line-height: 55px;
+    }
+    .company__subtitle {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .company__text {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .company__subtext {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .company__button {
+        width: 233px;
+        height: 64px;
+    }
+    .reason__wrap {
+        max-width: 317px;
+    }
+    .reason__text {
+        font-size: 16px;
+    }
+    .reason__subtext {
+        font-size: 14px;
+    }
+    .reason__round {
+        margin-right: 16px;
+    }
+    .mobile-app__block {
+        width: 300px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navigation__item::after {
+        padding-right: 9px;
+    }
+    .navigation__link {
+        font-size: 13px;
+    }
+    .navigation__list {
+        padding: 14px 12px;
+    }
+    .logo__image {
+        width: 100%;
+    }
+    .logo__subtext {
+        font-size: 12px;
+    }
+    .call-us__title {
+        font-size: 11px;
+    }
+    .call-us__link {
+        font-size: 19px;
+    }
+    .subheader__button {
+        width: 168px;
+        height: 45px;
+    }
+    .company__title {
+        font-size: 41px;
+        line-height: 41px;
+    }
+    .company__subtitle {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .company__text {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .company__subtext {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .company__button {
+        width: 200px;
+        height: 52px;
+        font-size: 15px;
+    }
+    .reason__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .reason__round {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .reason__text {
+        text-align: center;
+        min-height: 48px;
+    }
+    .reason__subtext {
+        text-align: center;
+    }
+    .reason__wrapper_mbn {
+        margin-bottom: 0;
+    }
+    .mobile-app__block {
+        width: 220px;
+        height: 247px;
+    }
+    .mobile-app__text {
+        font-size: 16px;
+    }
+    .block__title {
+        font-size: 20px;
+    }
+    .block__item {
+        font-size: 14px;
+    }
+}
